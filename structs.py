@@ -19,7 +19,7 @@ class Graph(object):
             return list(self.adj[v])
         else:
             return []
-    def get_connected(self, coloreds):
+    def get_connected_not_colored(self, coloreds):
         
         if (coloreds == "root"):
             return self.get_vertices()
